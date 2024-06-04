@@ -14,7 +14,11 @@ html {
 
 html {
   font-size: 16px;
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: var(--font-sans);
+}
+
+input {
+  font-family: var(--font-sans);
 }
 
 body {
@@ -25,6 +29,8 @@ body {
   --blue-100: #ABB5FF;
   --blue-200: #838FED;
   --blue-300: #2645AA;
+
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .flex {display: flex}
@@ -41,6 +47,7 @@ body {
 .font-semibold { font-weight: 600; }
 .text-xl { font-size: 4rem }
 .text-base { font-size: 1rem }
+.color-white {color: white}
 .color-blue-100 { color: var(--blue-100) }
 .color-blue-200 { color: var(--blue-200) }
 .spacing-tight { letter-spacing: -.125rem }
@@ -49,12 +56,18 @@ body {
 
 .bg-transparent { background-color: transparent }
 .bg-blue-100 { background-color: var(--blue-100) }
+.bg-blue-300 { background-color: var(--blue-300) }
 .border-blue-100 { border-color: var(--blue-100) }
+.border-blue-200 { border-color: var(--blue-200) }
 .border-none { border-width: 0 }
 .border-4 { border-width: 4px }
 .rounded-md { border-radius: .25rem }
 .rounded-lg { border-radius: .5rem }
 .outline-0 {outline-width: 0px}
+
+
+.disabled\:color-blue-200[disabled] {color: var(--blue-200)}
+.disabled\:bg-blue-100[disabled] {background-color: var(--blue-100)}
 
 .placeholder\:text-center::placeholder { text-align: center }
 .placeholder\:text-base::placeholder { font-size: 1rem }
