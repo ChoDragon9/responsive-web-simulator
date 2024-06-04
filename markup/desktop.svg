@@ -1,0 +1,51 @@
+<svg
+  viewBox="0 0 360 280"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path
+    fill="none"
+    stroke="#ABB5FF"
+    stroke-width="4"
+    d="M 2,12
+      L 2,238
+      Q 1,249 12,248
+      L 348,248
+      Q 359,249 358,238
+      L 358,12
+      Q 359,1 348,2 
+      L 12,2
+      Q 1,1 2,12
+      Z" />
+  <svg x="120" y="255">
+    <path
+      fill="#ABB5FF"
+      d="M 0,0
+        L 120,0
+        L 120,25
+        L 0,25
+        Z" />
+  </svg>
+  <svg x="170" y="249">
+    <path
+      fill="#838FED"
+      d="M 0,0
+        L 0,20
+        L 20,20
+        L 20,0
+        Z" />
+  </svg>
+  <svg x="15" y="15">
+    <path
+      fill="#ABB5FF"
+      d="M 0,10
+        L 0,210
+        Q 0,220 10,220
+        L 320,220
+        Q 330,220 330,210
+        L 330,10
+        Q 330,0 320,0 
+        L 10,0
+        Q 0,0 0,10
+        Z" />
+  </svg>
+</svg>
